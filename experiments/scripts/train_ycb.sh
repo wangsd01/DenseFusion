@@ -3,6 +3,8 @@
 set -x
 set -e
 
+export PYTHONPATH=/home/robotics/github/DenseFusion:$PYTHONPATH
+
 export PYTHONUNBUFFERED="True"
 export CUDA_VISIBLE_DEVICES=0
 
