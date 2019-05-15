@@ -4,7 +4,11 @@ import operator as op
 import functools
 import torch
 from torch.autograd import Variable, Function
+<<<<<<< HEAD
 from knn_pytorch import knn_pytorch
+=======
+from lib.knn.knn_pytorch import knn_pytorch
+>>>>>>> 103ea974aba7204d4f1fe9c56d857c36acec95b6
 
 class KNearestNeighbor(Function):
   """ Compute k nearest neighbors for each query point.
